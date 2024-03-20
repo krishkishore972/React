@@ -25,6 +25,6 @@ console.log(data);
 }
 
 export const githubInfoLoader = async () => {
-   const response = await fetch('https://api.github.com/users/krishkishore972')
+   const response = await fetch('https://api.github.com/users/hiteshchoudharyy')
     return response.json()
 }
